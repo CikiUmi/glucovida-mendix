@@ -93,6 +93,7 @@
                 },
                 {
                     "name": "Background Salmon",
+                    "oldNames": ["Yeah", "yeah"],
                     "class": "backgroundSalmon"
                 },
                 {

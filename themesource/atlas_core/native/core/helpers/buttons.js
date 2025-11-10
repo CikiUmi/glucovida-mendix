@@ -123,6 +123,7 @@ export const btnIconDanger = merge(btnIcon, {
         color: button.danger.backgroundColor
     }
 });
+
 export const btnIconWhite = merge(btnIcon, {
     icon: {
         color: "#FFF"

@@ -73,3 +73,46 @@ export const ActionButtonHeader = {
         fontFamily: font.family
     }
 };
+export const Check = {
+    container: {
+        // Ripplecolor and all ViewStyle properties are allowed
+        borderWidth: 1,
+        borderStyle: "solid",
+        rippleColor: button.container.rippleColor,
+        borderColor: button.primary.borderColor = "#B2443A",
+        backgroundColor: button.secondary.color = "#E33F4E",
+        alignItems: "center",
+        justifyContent: "center",
+        borderRadius: button.container.borderRadius,
+        minWidth: button.container.minWidth,
+        minHeight: button.container.minHeight,
+        paddingVertical: button.container.paddingVertical,
+        paddingHorizontal: button.container.paddingHorizontal
+    },
+    containerDisabled: {
+        // All ViewStyle properties are allowed
+        borderColor: button.containerDisabled.borderColor,
+        backgroundColor: button.containerDisabled.backgroundColor
+    },
+    icon: {
+        // Size and color are allowed
+        color: button.danger.color,
+        size: button.icon.size
+    },
+    iconDisabled: {
+        // Size and color are allowed
+        color: button.iconDisabled.color
+    },
+    caption: {
+        // All TextStyle properties are allowed
+        color: button.danger.color = "#FFF",
+        fontSize: button.caption.fontSize,
+        fontFamily: font.family,
+        fontWeight: button.caption.fontWeight,
+        lineHeight: font.lineHeight
+    },
+    captionDisabled: {
+        // All TextStyle properties are allowed
+        color: button.captionDisabled.color
+    }
+};

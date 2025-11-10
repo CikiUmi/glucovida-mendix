@@ -17,6 +17,7 @@ export const brand = {
     success: "#3CB33D",
     warning: "#ECA51C",
     danger: "#E33F4E",
+    salmon: "#B2443A",
     info: "#0086D9",
     primaryLight: "#F3F5FF",
     successLight: "#F1FCF1",
@@ -42,6 +43,7 @@ export const background = {
     brandSuccess: brand.success,
     brandWarning: brand.warning,
     brandDanger: brand.danger,
+    brandSalmon: brand.salmon,
     brandInfo: brand.info
 };
 //
@@ -182,6 +184,11 @@ export const button = {
         color: "#FFF",
         borderColor: brand.danger,
         backgroundColor: brand.danger
+    },
+    salmon: {
+        color: "#FFF",
+        borderColor: brand.salmon,
+        backgroundColor: brand.salmon
     }
 };
 //

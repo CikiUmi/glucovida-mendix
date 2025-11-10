@@ -16,3 +16,8 @@
 *.mpr.bak
 /vendorlib/temp/
 .DS_Store
+/glucovida.mpr.bak
+/glucovida.mpr.lock
+/nativemobile/builds/
+/.svn/
+/mprcontents/mprjournal*

@@ -13,7 +13,7 @@ import "./exclusion-variables";
 // -------------------------------------------------------------------------------------------------------------------//
 // Brand Styles
 export const brand = {
-    primary: "#264AE5",
+    primary: "#35C18B",
     success: "#3CB33D",
     warning: "#ECA51C",
     danger: "#E33F4E",
@@ -30,10 +30,10 @@ export const darkMode = Appearance.getColorScheme() === "dark";
 //
 // Background Colors
 export const backgroundDefaults = {
-    primaryLight: "#FFF",
-    primaryDark: "#0A1325",
-    secondaryLight: "#F8F8F8",
-    secondaryDark: "#161F30"
+    primaryLight: "#EFF9E9",
+    primaryDark: "#1D5048",
+    secondaryLight: "#EFF9E9",
+    secondaryDark: "#096868"
 };
 export const background = {
     primary: darkMode ? backgroundDefaults.primaryDark : backgroundDefaults.primaryLight,
@@ -67,9 +67,9 @@ export const border = {
 //
 // Font Styles
 export const fontDefaults = {
-    colorTitleDark: "#0A1326",
-    colorTitleLight: "#FDFDFD",
-    colorParagraphDark: "#6C717E",
+    colorTitleDark: "#1D5048",
+    colorTitleLight: "#EFF9E9",
+    colorParagraphDark: "#696969",
     colorParagraphLight: "#E7E7E9",
     colorDisabledDark: "#9DA1A8",
     colorDisabledLight: "#9DA1A8"

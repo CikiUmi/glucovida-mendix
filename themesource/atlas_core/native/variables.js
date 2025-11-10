@@ -284,7 +284,7 @@ let navigation = {
         backgroundColor: brand.primary,
         backButtonColor: "#FFF",
         titleColor: "#FFF",
-        titleFontSize: font.sizeH6
+        titleFontSize: 12
     },
     bottomBar: {
         color: contrast.high,

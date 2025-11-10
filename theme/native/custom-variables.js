@@ -83,9 +83,10 @@ export const font = {
     sizeH1: adjustFont(40),
     sizeH2: adjustFont(34),
     sizeH3: adjustFont(28),
-    sizeH4: adjustFont(12),
+    sizeH4: adjustFont(24),
     sizeH5: adjustFont(20),
     sizeH6: adjustFont(16),
+    nuevotest: adjustFont(9),
     lineHeight: adjustFont(14) * 1.5,
     lineHeightSmallest: adjustFont(10) * 1.5,
     lineHeightSmall: adjustFont(12) * 1.5,
@@ -275,7 +276,7 @@ export const navigation = {
         backgroundColor: brand.primary,
         backButtonColor: "#EFF9E9",
         titleColor: "#EFF9E9",
-        titleFontSize: fontSize.sizeH4
+        titleFontSize: 10
     },
     bottomBar: {
         color: contrast.high,

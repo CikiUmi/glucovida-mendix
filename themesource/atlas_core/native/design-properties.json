@@ -92,11 +92,6 @@
                     "class": "backgroundSecondary"
                 },
                 {
-                    "name": "Background Salmon",
-                    "oldNames": ["Yeah", "yeah"],
-                    "class": "backgroundSalmon"
-                },
-                {
                     "name": "Brand Primary",
                     "class": "backgroundBrandPrimary"
                 },

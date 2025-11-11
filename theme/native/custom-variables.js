@@ -13,11 +13,10 @@ import "./exclusion-variables";
 // -------------------------------------------------------------------------------------------------------------------//
 // Brand Styles
 export const brand = {
-    primary: "#35C18B",
+    primary: "#264AE5",
     success: "#3CB33D",
     warning: "#ECA51C",
     danger: "#E33F4E",
-    salmon: "#B2443A",
     info: "#0086D9",
     primaryLight: "#F3F5FF",
     successLight: "#F1FCF1",
@@ -31,10 +30,10 @@ export const darkMode = Appearance.getColorScheme() === "dark";
 //
 // Background Colors
 export const backgroundDefaults = {
-    primaryLight: "#EFF9E9",
-    primaryDark: "#1D5048",
-    secondaryLight: "#EFF9E9",
-    secondaryDark: "#096868"
+    primaryLight: "#FFF",
+    primaryDark: "#0A1325",
+    secondaryLight: "#F8F8F8",
+    secondaryDark: "#161F30"
 };
 export const background = {
     primary: darkMode ? backgroundDefaults.primaryDark : backgroundDefaults.primaryLight,
@@ -43,7 +42,6 @@ export const background = {
     brandSuccess: brand.success,
     brandWarning: brand.warning,
     brandDanger: brand.danger,
-    brandSalmon: brand.salmon,
     brandInfo: brand.info
 };
 //
@@ -69,9 +67,9 @@ export const border = {
 //
 // Font Styles
 export const fontDefaults = {
-    colorTitleDark: "#1D5048",
-    colorTitleLight: "#EFF9E9",
-    colorParagraphDark: "#696969",
+    colorTitleDark: "#0A1326",
+    colorTitleLight: "#FDFDFD",
+    colorParagraphDark: "#6C717E",
     colorParagraphLight: "#E7E7E9",
     colorDisabledDark: "#9DA1A8",
     colorDisabledLight: "#9DA1A8"
@@ -88,7 +86,6 @@ export const font = {
     sizeH4: adjustFont(24),
     sizeH5: adjustFont(20),
     sizeH6: adjustFont(16),
-    nuevotest: adjustFont(9),
     lineHeight: adjustFont(14) * 1.5,
     lineHeightSmallest: adjustFont(10) * 1.5,
     lineHeightSmall: adjustFont(12) * 1.5,
@@ -184,11 +181,6 @@ export const button = {
         color: "#FFF",
         borderColor: brand.danger,
         backgroundColor: brand.danger
-    },
-    salmon: {
-        color: "#FFF",
-        borderColor: brand.salmon,
-        backgroundColor: brand.salmon
     }
 };
 //
@@ -281,9 +273,9 @@ export const navigation = {
     },
     topBar: {
         backgroundColor: brand.primary,
-        backButtonColor: "#EFF9E9",
-        titleColor: "#EFF9E9",
-        titleFontSize: 10
+        backButtonColor: "#FFF",
+        titleColor: "#FFF",
+        titleFontSize: font.sizeH6
     },
     bottomBar: {
         color: contrast.high,

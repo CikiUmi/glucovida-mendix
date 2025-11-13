@@ -732,7 +732,8 @@ export const columnChart = {
             fontSize: font.sizeSmall,
             fontWeight: font.weightNormal
         }
-    }
+    },
+    glucose: glucoseColumnChart
 };
 // TODO add bar chart styles
 // Gallery style
@@ -957,3 +958,69 @@ export const ChartTest = {
     }
 };
 
+// --- Custom Column Chart Styles (Glucose-friendly) ---
+export const glucoseColumnChart = {
+    container: {
+        backgroundColor: "#ffffff",
+        borderRadius: 12,
+        padding: 10,
+        elevation: 2,
+        shadowColor: "#000000",
+        shadowOpacity: 0.05,
+        shadowRadius: 4,
+    },
+    chart: {
+        padding: 5
+    },
+    grid: {
+        lineColor: "#E5E7EB",
+        dashArray: "3 3",
+        width: 1
+    },
+    xAxis: {
+        color: "#4B5563",
+        fontSize: 10,
+        fontWeight: "500",
+        lineColor: "#9CA3AF",
+        width: 1,
+        label: {
+            fontSize: 10,
+            fontWeight: "500",
+            color: "#6B7280",
+            relativePositionGrid: "bottom"
+        }
+    },
+    yAxis: {
+        color: "#4B5563",
+        fontSize: 10,
+        fontWeight: "400",
+        lineColor: "#D1D5DB",
+        width: 1,
+        label: {
+            fontSize: 10,
+            color: "#6B7280",
+            relativePositionGrid: "left"
+        }
+    },
+    columns: {
+        columnColorPalette: "#60A5FA;#3B82F6;#2563EB", // degradado azul
+        columnsOffset: 0.05, // Barras más juntas
+        customColumnStyles: {
+            high: {
+                column: {
+                    columnColor: "#F87171"
+                }
+            }
+        }
+    },
+    legend: {
+        container: {
+            marginTop: 8,
+            justifyContent: "center"
+        },
+        label: {
+            fontSize: 10,
+            color: "#6B7280"
+        }
+    }
+};

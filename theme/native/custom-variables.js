@@ -14,13 +14,13 @@ import "./exclusion-variables";
 // Brand Styles
 export const brand = {
     primary: "#35C18B", //264AE5
-    primaryOld: "#264AE5"
-    success: "#3CB33D",
+    primaryOld: "#264AE5",
+    success: "#264ae5",
     warning: "#ECA51C",
     danger: "#E33F4E",
     info: "#0086D9",
     primaryLight: "#F3F5FF",
-    successLight: "#F1FCF1",
+    successLight: "#264ae5",
     warningLight: "#FFF9E6",
     dangerLight: "#FFEEF0",
     infoLight: "#ECF9FF"
@@ -31,9 +31,9 @@ export const darkMode = Appearance.getColorScheme() === "dark";
 //
 // Background Colors
 export const backgroundDefaults = {
-    primaryLight: "#FFF",
+    primaryLight: "#eeeeee",
     primaryDark: "#0A1325",
-    secondaryLight: "#CCE7F8",
+    secondaryLight: "#d6e1e5",
     secondaryDark: "#161F30"
 };
 export const background = {
@@ -70,7 +70,7 @@ export const border = {
 export const fontDefaults = {
     colorTitleDark: "#0A1326",
     colorTitleLight: "#FDFDFD",
-    colorParagraphDark: "#6C717E",
+    colorParagraphDark: "#414347",
     colorParagraphLight: "#E7E7E9",
     colorDisabledDark: "#9DA1A8",
     colorDisabledLight: "#9DA1A8"

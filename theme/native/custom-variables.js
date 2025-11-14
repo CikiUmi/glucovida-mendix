@@ -13,7 +13,8 @@ import "./exclusion-variables";
 // -------------------------------------------------------------------------------------------------------------------//
 // Brand Styles
 export const brand = {
-    primary: "#35C18B",
+    primary: "#35C18B", //264AE5
+    primaryOld: "#264AE5"
     success: "#3CB33D",
     warning: "#ECA51C",
     danger: "#E33F4E",
@@ -32,7 +33,7 @@ export const darkMode = Appearance.getColorScheme() === "dark";
 export const backgroundDefaults = {
     primaryLight: "#FFF",
     primaryDark: "#0A1325",
-    secondaryLight: "#DAEEE3",
+    secondaryLight: "#CCE7F8",
     secondaryDark: "#161F30"
 };
 export const background = {

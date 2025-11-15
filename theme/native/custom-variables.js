@@ -14,13 +14,13 @@ import "./exclusion-variables";
 // Brand Styles
 export const brand = {
     primary: "#35C18B", //264AE5
-    primaryOld: "#264AE5",
-    success: "#264ae5",
+    primaryOld: "#264AE5", //#1D5048 // ##096868
+    success: "#264AE5",
     warning: "#ECA51C",
     danger: "#E33F4E",
     info: "#0086D9",
     primaryLight: "#F3F5FF",
-    successLight: "#264ae5",
+    successLight: "#096868",
     warningLight: "#FFF9E6",
     dangerLight: "#FFEEF0",
     infoLight: "#ECF9FF"
